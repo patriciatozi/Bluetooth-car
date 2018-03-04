@@ -6,6 +6,7 @@ const int dirB = 8; //direcao do motor B - HIGH ou LOW
 long tempobotapet;
 int botapet = 0; 
 char dataIn = 'S';
+const int a = 2;
 
 void setup() {
   Serial.begin(9600);
